@@ -1,9 +1,0 @@
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/bin/Debug/netcoreapp1.1/CarLotCSharp.deps.json
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/bin/Debug/netcoreapp1.1/CarLotCSharp.runtimeconfig.json
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/bin/Debug/netcoreapp1.1/CarLotCSharp.runtimeconfig.dev.json
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/obj/Debug/netcoreapp1.1/CarLotCSharp.csproj.CoreCompileInputs.cache
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/obj/Debug/netcoreapp1.1/CarLotCSharp.AssemblyInfo.cs
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/bin/Debug/netcoreapp1.1/CarLotCSharp.dll
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/bin/Debug/netcoreapp1.1/CarLotCSharp.pdb
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/obj/Debug/netcoreapp1.1/CarLotCSharp.dll
-/Users/Guest/Desktop/CarLotCSharp.Solution/CarLotCSharp/obj/Debug/netcoreapp1.1/CarLotCSharp.pdb
