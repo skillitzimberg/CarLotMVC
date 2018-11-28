@@ -1,56 +1,64 @@
-using System;
+using System.Collections.Generic;
 
-namespace Dealership {
+namespace Dealership.Models
+{
 
-  class Car
+  public class Car
   {
-    private string MakeModel;
-    private int Miles;
-    private int Price;
-    private string Description;
+    private string _makeModel;
+    private int _miles;
+    private int _price;
+    private string _description;
+    private static List<Car> _inventory = new List<Car> {};
 
-    public Car(string makeModel, int miles, int price, string description )
+    public Car(string makeModel, int miles, int price, string description)
     {
-      MakeModel = makeModel;
-      Miles = miles;
-      Price = price;
-      Description = description;
+      _makeModel = makeModel;
+      _miles = miles;
+      _price = price;
+      _description = description;
+      _inventory.Add(this);
 
     }
 
     public string GetMakeModel()
     {
-      return MakeModel;
+      return _makeModel;
     }
 
     public int GetMiles()
     {
-      return Miles;
+      return _miles;
     }
 
     public int GetPrice()
     {
-      return Price;
+      return _price;
     }
 
     public string GetDescription()
     {
-        return Description;
+        return _description;
+    }
+
+    public static List<Car> GetAllCars()
+    {
+      return _inventory;
     }
 
     public void SetPrice(int newPrice)
     {
-      Price = newPrice;
+      _price = newPrice;
     }
 
     public bool WithinBudget(int maxPrice)
     {
-      return (Price <= maxPrice);
+      return (_price <= maxPrice);
     }
 
     public bool FewEnoughMiles(int maxMiles)
     {
-        return (Miles <= maxMiles);
+        return (_miles <= maxMiles);
     }
   }
 
